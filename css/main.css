@@ -1,0 +1,87 @@
+.img-container {
+    width: 1240px;
+    height: 800px;
+}
+.main img {
+    /*border: 5px solid black;*/
+    background-color: rgba(255, 255, 255, 0);
+}
+.gift-image {
+    position: absolute;
+    top: 650px;
+    left: 1000px;
+    width: 150px;
+    box-shadow: 0 2px 5px #ddd;
+}
+.gift-image :hover {
+    border: 5px solid black;
+    transform:rotate(360deg);
+    /*transition: 2s;
+    animation-delay: 0.0s;
+    animation-name: key;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;*/
+
+}
+.flower-image:hover{
+    border: 5px solid black;
+    transform:rotate(360deg);
+}
+/*    transition: 2s;
+    animation-delay: 0.0s;
+    animation-name: key;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+@keyframes key {
+    %0{
+        transform:rotate(-25deg);
+        transition: all 0.5s;
+    }
+    %100{
+        transform:rotate(25deg);
+        transition: all 0.5s;
+    }
+
+}
+*/
+.flower-image {
+    /*transform:rotate(25deg);*/
+    width: 180px;
+    box-shadow: 0 6px 10px #ddd;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+.classroom {
+    width: 1000px;
+    height: 600px;
+    margin-top: 10px;
+    margin-left: 130px;
+    background-color: rgba(255, 255, 255, 0);
+    box-shadow: 0 0 10px rgba(111, 111, 111, 0.2);
+}
+.blackboard-image {
+    position: absoulute;
+    width: 940px;
+    height: 590px;
+    left: 50%;
+    margin-top: 160px;
+}
+.row {
+    position: absolute;
+    z-index: 100;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "楷体";
+    color: white;
+    background-color: purple;
+    left: 300px;
+    top: 200px;
+    line-height: 50px;
+    box-shadow: 0 5px 10px gray;
+}
+
